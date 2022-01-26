@@ -1,5 +1,5 @@
 ---
-title: Friendbuy Web Mode (Actions) Destination
+title: Friendbuy Cloud Mode (Actions) Destination
 hide-boilerplate: true
 hide-dossier: true
 hidden: true
@@ -7,9 +7,9 @@ hidden: true
 
 {% include content/plan-grid.md name="actions" %}
 
-[Friendbuy](https://www.friendbuy.com/){:target='_blank'} is a referral marketing platform.
+[Friendbuy](https://www.friendbuy.com/){:target='_blank'} powers referral programs for e-commerce merchants of all sizes.  We give companies an easy solution to launch Refer-a-Friend programs and accelerate their growth through word of mouth.
 
-Friendbuy's cloud-mode Segment integration allows you send data to Friendbuy from your data center so that Friendbuy can act on it, to trigger a reward when a referred customer performs a rewardable event or to send customer data to be used in your Friendbuy-managed loyalty program, for example.
+Friendbuy's cloud-mode Segment integration allows you send data to Friendbuy from your data center so that Friendbuy can act on it, to trigger a reward when a referred customer performs a rewardable event or to send customer data to be used in your Friendbuy-managed loyalty/rewards program, for example.
 
 If you are using Segment with a Friendbuy referral program you most likely want to use the [web destination](/docs/connections/destinations/catalog/actions-friendbuy-web/) to configure the Friendbuy JavaScript and to send customer and purchase data directly to Friendbuy as the user interacts with your web site. However if you also want to send events from your data center to Friendbuy, such as purchases due to recurring transactions, for example, then you should also use this cloud mode [destination action](/docs/connections/destinations/actions/), which provides an interface between Segment's identify and track calls and Friendbuy's MAPI (merchant API).
 
@@ -29,7 +29,7 @@ Friendbuy Cloud Mode (Actions) is the Segment cloud mode destination that works 
 ## Getting started
 
 > info ""
-> Please contact your Friendbuy Onboarding & Implementation Representative or email support@friendbuy.com to set up Friendbuy's Segment integration.
+> Please contact your Friendbuy Customer Success Manager or email support@friendbuy.com to set up Friendbuy's Segment integration.
 
 1. You need your Friendbuy MAPI Key and MAPI Secret to use the Friendbuy cloud mode integration. Contact your Friendbuy Onboarding & Implementation Representative to have these generated for you. (These are not the same as the Merchant ID and Secret Key that are available in your Friendbuy account.)
 2. From the Segment web app, click **Catalog**, then click **Destinations**.
